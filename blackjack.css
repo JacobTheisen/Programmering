@@ -1,0 +1,16 @@
+.center {
+  text-align: center;
+
+}
+.img {
+  justify-content: center;
+  margin: 0 auto;
+.dealer {
+    display:inline-block;
+}
+.spiller{
+    display:inline-block;
+}
+.size {
+  font-size: 150%;
+}
