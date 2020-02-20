@@ -75,11 +75,11 @@ function oppstart() {
   dealerKort7 = alleKort[Math.floor(Math.random() * 13)];
   dealerKort8 = alleKort[Math.floor(Math.random() * 13)];
 
-  spillerKort1 = 1;
-  spillerKort2 = 1;
-  spillerKort3 = 1;
-  spillerKort4 = 1;
-  spillerKort5 = 1;
+  spillerKort1 = alleKort[Math.floor(Math.random() * 13)];
+  spillerKort2 = alleKort[Math.floor(Math.random() * 13)];
+  spillerKort3 = alleKort[Math.floor(Math.random() * 13)];
+  spillerKort4 = alleKort[Math.floor(Math.random() * 13)];
+  spillerKort5 = alleKort[Math.floor(Math.random() * 13)];
   spillerKort6 = alleKort[Math.floor(Math.random() * 13)];
   spillerKort7 = alleKort[Math.floor(Math.random() * 13)];
   spillerKort8 = alleKort[Math.floor(Math.random() * 13)];
