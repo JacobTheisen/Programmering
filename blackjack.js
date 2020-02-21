@@ -16,6 +16,8 @@ let alleKortBilder = [
   "dame.png",
   "konge.png"
 ];
+
+//test
 let dealerKort1;
 let dealerKort2;
 let spillerKort1;
