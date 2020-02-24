@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+
+  <body bgcolor="#0a721d">
+    BRUKERNAVN: <input id="brukernavn" /> <button id="loggInn">Logg inn</button>
+
+    <div id="saldo">
+      <!-- test test 4-->
+    </div>
+
+    <div class="fixed">
+      <p>Her kan du registrere ny bruker</p>
+      EMAIL: <input id="email" /> <br />
+      BRUKERNAVN: <input id="brukernavnNy" />
+      <button id="registrer">Registrer ny bruker!</button>
+      <br /><br /><br />
+    </div>
+
+    <div class="fixed2">
+      <p>ALL TIME LEADERBOARD:</p>
+<li id="leaderboardList">
+</li>
+      <br />
+    </div>
+
+    <p id = "stuff">INNSATS: <input type="text" id="innsats" />
+    <button id="sjekkInnsats" onclick="sjekkInnsats()">Plasser innsats</button>
+    <br />
+    <button id="oppstart" onclick="oppstart()">Trekk kort</button> <br /> </p>
+    <div class="img">
+      <img id="bilde1" width="100px" class="dealer" />
+      <img id="bilde2" width="100px" class="dealer" />
+      <img id="bilde3" width="100px" class="dealer" />
+      <img id="bilde4" width="100px" class="dealer" />
+      <img id="bilde5" width="100px" class="dealer" />
+      <img id="bilde6" width="100px" class="dealer" />
+      <img id="bilde7" width="100px" class="dealer" />
+      <img id="bilde8" width="100px" class="dealer" />
+    </div>
+    <br />
+    <br />
+    <div id="currentPointDealer" class="center size"></div>
+    <br />
+    <br />
+
+    <div class="img">
+      <img id="bilde9" width="100px" class="dealer" />
+      <img id="bilde10" width="100px" class="dealer" />
+      <img id="bilde11" width="100px" class="dealer" />
+      <img id="bilde12" width="100px" class="dealer" />
+      <img id="bilde13" width="100px" class="dealer" />
+      <img id="bilde14" width="100px" class="dealer" />
+      <img id="bilde15" width="100px" class="dealer" />
+      <img id="bilde16" width="100px" class="dealer" />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+    <br />
+    <div id="currentPoint" class="center size"></div>
+    <div id="ut1" class="center size"></div>
+
+    <script>
+      require("@babel/register");
+      require("./index.js");
+    </script>
+  </body>
+</html>
